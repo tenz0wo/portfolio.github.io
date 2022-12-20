@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #373737;
+
+}
+
+.container{
+    margin: 0px 150px;
+}   
+
+.header{
+    height: 100vh;
+}
+
+.header-line{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-left: 30px;
+}
+
+.text-logo{
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    transition: color 0.2s linear;
+
+}
+
+.nav-item{
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    margin-right: 30px;
+    transition: color 0.2s linear;
+}
+
+.nav-item:hover{
+    color: #C0C0C0;
+
+}
+.title{
+    margin-left: 30px;
+}
+
+.title h1 {
+    font-size: 70px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #13688F, #44ACC4);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.wrapper{
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.wrapper:after {
+    content: "";
+    display: table;
+    clear: both;
+} 
+
+.wrapper div {
+    margin-bottom: 15px;
+  }
+
+.block{
+    width: auto;
+    height: 400px;
+    margin: 10px;
+}
+
+.col-1-3-l {
+    width: 33.3333333333%;
+    float: left;
+}
+
+.col-2-3-l {
+    width: 66.6666666667%;
+    float: right;
+}
+
+.col-1-3-r {
+    width: 33.3333333333%;
+    float: left;
+}
+
+.col-2-3-r {
+    width: 66.6666666667%;
+    float: right;
+}
+
+.left-title{
+    margin-right: 20px;
+    color: white;
+}
+
+.right-desc{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.right-title{
+    margin-left: 20px;
+    color: white;
+}
+
+.left-desc{
+    color: whitesmoke;
+    text-decoration: none;
+}
