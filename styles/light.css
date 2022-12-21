@@ -109,24 +109,35 @@ body{
 
 .left-title{
     margin-right: 20px;
-    color: black;
+    color: transparent;
+    background-image: linear-gradient( 90deg, #1463ca,#e97f94,#ecdbac);
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 
 .right-desc{
-    color: #3B3B3B;
     text-decoration: none;
+    color: transparent;
+    background-image: linear-gradient( 90deg, #fdb68b,#cb8b9f,#79738d);
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 
 .right-title{
     margin-left: 200px;
-    color: black;
+    color: transparent;
+    background-image: linear-gradient( 90deg, #1463ca,#e97f94,#ecdbac);
+    background-clip: text;
+    -webkit-background-clip: text;
 
 }
 
 .left-desc{
-    color: #3B3B3B;
     text-decoration: none;
     margin-left: 30px;
-
+    color: transparent;
+    background-image: linear-gradient( 90deg, #fdb68b,#cb8b9f,#79738d);
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 

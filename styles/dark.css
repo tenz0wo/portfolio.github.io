@@ -53,7 +53,7 @@ body{
 .title h1 {
     font-size: 70px;
     font-weight: 600;
-    background-image: linear-gradient(to left, #13688F, #44ACC4);
+    background-image: linear-gradient(to left, #AFBCC3,#A0B8FB,#FC91FF);
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
@@ -109,21 +109,33 @@ body{
 
 .left-title{
     margin-right: 20px;
-    color: white;
+    color: transparent;
+    background-image: linear-gradient( 90deg, #d58744,#7d93bf,#ffffff);
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 
 .right-desc{
-    color: whitesmoke;
     text-decoration: none;
+    color: transparent;
+    background-image: linear-gradient( 90deg, #abf8e7,#8778c7);
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 
 .right-title{
     margin-left: 200px;
-    color: white;
+    color: transparent;
+    background-image: linear-gradient( 90deg, #d58744,#7d93bf,#ffffff);
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 
 .left-desc{
-    color: whitesmoke;
     text-decoration: none;
-    margin-left: 30px;
+    margin: 0px 30px;
+    color: transparent;
+    background-image: linear-gradient( 90deg,#abf8e7,#8778c7);
+    background-clip: text;
+    -webkit-background-clip: text;
 }
