@@ -60,6 +60,7 @@ body{
   }
 
 .img-course{
+    margin: 20px;
     width: 600px;
     height: 300px;
 }
@@ -117,9 +118,8 @@ body{
 }
 
 .right-title{
-    margin-left: 20px;
+    margin-left: 200px;
     color: black;
-    margin-left: 150px;
 
 }
 
