@@ -14,12 +14,12 @@ function ChangeTheme()
     if(currTheme == lightTheme)
     {
    	 currTheme = darkTheme;
-   	 theme = "dark";
+   	 theme = "light";
     }
     else
     {    
    	 currTheme = lightTheme;
-   	 theme = "light";
+   	 theme = "dark";
     }
 
     link.setAttribute("href", currTheme);
